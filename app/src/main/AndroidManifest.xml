@@ -16,10 +16,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".HomeScreen.MainActivity"
+            android:name=".SecondScreen.InfoActivity"
             android:exported="false" />
         <activity
-            android:name=""
+            android:name=".HomeScreen.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
